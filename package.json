@@ -5,15 +5,15 @@
 	"watch": {
 		"build": {
 			"patterns": [
-				"root"
+				"docs"
 			],
 			"extensions": "html"
 		}
 	},
 	"scripts": {
 		"watch": "npm-watch",
-		"build": "postcss styles.css -o root/styles.css",
-		"dev": "concurrently \"npm run build && live-server root --port=8080\" \"npm run watch\""
+		"build": "postcss styles.css -o docs/styles.css",
+		"dev": "concurrently \"npm run build && live-server docss --port=8080\" \"npm run watch\""
 	},
 	"keywords": [],
 	"author": "",
