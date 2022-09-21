@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 h1 {
-	@apply font-normal uppercase text-yellow-500 text-3xl block mb-4;
+	@apply font-normal uppercase text-3xl block mb-4;
 }
